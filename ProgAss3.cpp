@@ -41,9 +41,7 @@ void cleanWord(string &word) {
             length = word.size();
             i--;
         }
-
     }
-
 }
 
 int main() {
@@ -95,7 +93,7 @@ int main() {
 
 	cout<< "Done Checking and these are the results\n";
 	cout<< "Finished in time: " << timer.Time() << "\n";
-	cout<<"Finished in milliseconds Time: " << timer.TimeMS() << "\n";
+	cout<<"Finished in milliseconds time: " << timer.TimeMS() << "\n";
 	cout << "There are " << correctSpell << " words found in the dictionary\n\t";
 	cout<< dictionary.foundCompare << " compares. Average: " << foundAvg << "\n";
 	cout << "There are " << wrongSpell << " words NOT found in the dictionary\n\t";

@@ -8,7 +8,7 @@ Section # 11
 
 Competing: YES 
 
-Best run time: 1.00517 on Linux
+Best run time: 0.999597 on Linux
 
 How to compile: g++ ProgAss3.cpp
 
